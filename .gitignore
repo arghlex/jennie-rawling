@@ -1,0 +1,7 @@
+/node_modules/
+/package.json
+/Gruntfile.js
+/.sass-cache/
+/bower_components/
+.DS_Store
+.htaccess
