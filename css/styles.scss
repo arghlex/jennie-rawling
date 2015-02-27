@@ -147,18 +147,39 @@ footer {
 }
 @media (min-width: 600px) {
 	.head {
-		background: $color-bg1 url('../img/bg-3-lg.jpg') bottom right no-repeat;
-		background-size: cover;
-		padding: 60px 70% 60px 20px;
+		padding: 20px;
 		.wrap {
 			padding: 0;
-			margin:0;
+			margin: 0;
+		}
+		.main {
+			padding-left: 150px;
+			position: relative;
+			&:before {
+				content:'';
+				width: 110px;
+				height: 110px;
+				position:absolute;
+				background: url('../img/profile-circle.png') no-repeat center center;
+				background-size: cover;
+				left:0;
+				border: 4px solid #fff;
+				border-radius: 100px;
+			}
 		}
 	}
 }
 @media (min-width: 800px) {
 	.head {
+		background: $color-bg1 url('../img/bg-3-lg.jpg') bottom right no-repeat;
+		background-size: cover;
 		padding: 60px 40% 60px 60px;
+		.main {
+			padding: 0;
+		}
+		.main:before {
+			display: none;
+		}
 	}
 }
 @media (min-width: 980px) {
