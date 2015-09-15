@@ -838,6 +838,7 @@ footer {
   list-style: none;
   margin: 0;
   padding: 0;
+  background: #596e7d;
 }
 .gallery li {
   float: left;
